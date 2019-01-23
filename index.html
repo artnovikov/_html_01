@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cuda Single Page Portfolio Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+
+    <header class="d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-1 my-1">
+                            <a class="nav-link text-uppercase px-3" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-1 my-1">
+                            <a class="nav-link text-uppercase px-3" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item mx-1 my-1">
+                            <a class="nav-link text-uppercase px-3" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item mx-1 my-1">
+                            <a class="nav-link text-uppercase px-3" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item mx-1 my-1">
+                            <a class="nav-link text-uppercase" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item mx-1 my-1">
+                            <a class="nav-link text-uppercase px-3" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item mx-1 my-1">
+                            <a class="nav-link text-uppercase px-3" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="mb-3">Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
+            <button class="button mt-3">Work with us!</button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="services text-center" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="m-auto h2">Services we provide</h2>
+                    </div>
+                    <div class="col-lg-6 m-auto">
+                        <p class="m-auto description">We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-sm-3">
+                        <div class="img m-auto">
+                            <img src="./img/flag.png" class="item-img-top" alt="...">
+                        </div>
+                        <h3 class="item-title m-3 text-uppercase">Branding</h3>
+                        <p class="item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-sm-3">
+                        <div class="img m-auto">
+                            <img src="./img/crayon.png" class="item-img-top" alt="...">
+                        </div>
+                        <h3 class="item-title mt-3 text-uppercase">Design</h3>
+                        <p class="item-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-sm-3">
+                        <div class="img m-auto">
+                            <img src="./img/gears.png" class="item-img-top" alt="...">
+                        </div>
+                        <h3 class="item-title mt-3 text-uppercase">Development</h3>
+                        <p class="item-text">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-sm-3">
+                        <div class="img m-auto">
+                            <img src="./img/rocket.png" class="item-img-top" alt="...">
+                        </div>
+                        <h3 class="item-title mt-3 text-uppercase">Rocket Science</h3>
+                        <p class="item-text">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team text-center" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="m-auto h2">Meet our beautiful team</h2>
+                    </div>
+                    <div class="col-12">
+                        <p class="m-auto description">We are a small team of designers and developers, who help brands with big ideas.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex flex-column">
+                        <div class="img mx-auto"></div>
+                        <h3 class="item-title mt-3 text-uppercase">Anne Hataway</h3>
+                        <p class="item-job">CEO / Marketing Guru</p>
+                        <p class="item-text mr-2 ml-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                        <div class="social-icon-list mx-auto d-flex align-items-end">
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex flex-column">
+                        <div class="img mx-auto"></div>
+                        <h3 class="item-title mt-3 text-uppercase">Kate Upton</h3>
+                        <p class="item-job">Creative Director</p>
+                        <p class="item-text mr-2 ml-2">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident. Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+                        <div class="social-icon-list mx-auto d-flex align-items-end">
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex flex-column">
+                        <div class="img mx-auto"></div>
+                        <h3 class="item-title mt-3 text-uppercase">Olivia Wilde</h3>
+                        <p class="item-job">Lead Designer</p>
+                        <p class="item-text mr-2 ml-2">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                        <div class="social-icon-list mx-auto d-flex align-items-end">
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex flex-column">
+                        <div class="img mx-auto"></div>
+                        <h3 class="item-title mt-3 text-uppercase">Ashley Greene</h3>
+                        <p class="item-job">SEO / Developer</p>
+                        <p class="item-text mr-2 ml-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <div class="social-icon-list mx-auto d-flex align-items-end">
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="social-icon-list__item mx-1">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills text-center" id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="m-auto h2">We got skills!</h2>
+                    </div>
+                    <div class="col-12">
+                        <p class="m-auto description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-sm-3">
+                        <div class="img m-auto">
+                            <img src="./img/90.png" class="item-img-top" alt="...">
+                        </div>
+                        <h3 class="item-title mt-3 text-uppercase">Web Design</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-sm-3">
+                        <div class="img m-auto">
+                            <img src="./img/75.png" class="item-img-top" alt="...">
+                        </div>
+                        <h3 class="item-title mt-3 text-uppercase">Html / Css</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-sm-3">
+                        <div class="img m-auto">
+                            <img src="./img/70.png" class="item-img-top" alt="...">
+                        </div>
+                        <h3 class="item-title mt-3 text-uppercase">Graphic Design</h3>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-sm-3">
+                        <div class="img m-auto">
+                            <img src="./img/85.png" class="item-img-top" alt="...">
+                        </div>
+                        <h3 class="item-title mt-3 text-uppercase">Ui / Ux</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio text-center" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="m-auto h2">Our portfolio</h2>
+                    </div>
+                    <div class="col-12">
+                        <p class="m-auto description">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet <br> consectetur, adipisci velit, sed quia non numquam.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="list-group flex-md-row justify-content-center" id="list-tab" role="tablist">
+                            <a class="list-group-item m-2 text-uppercase active" id="list-all-list" data-toggle="list" href="#list-all" role="tab">All</a>
+                            <a class="list-group-item m-2 text-uppercase" id="list-web-list" data-toggle="list" href="#list-web" role="tab">Web</a>
+                            <a class="list-group-item m-2 text-uppercase" id="list-apps-list" data-toggle="list" href="#list-apps" role="tab">Apps</a>
+                            <a class="list-group-item m-2 text-uppercase" id="list-icons-list" data-toggle="list" href="#list-icons" role="tab">Icons</a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-all" role="tabpanel" aria-labelledby="list-all-list">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_1.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Isometric perspective mock-up</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_2.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Time zone app ui</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_3.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Viro media players ui</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_4.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Blog / magazine flat ui kit</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-web" role="tabpanel" aria-labelledby="list-web-list">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_4.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Blog / magazine flat ui kit</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_3.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Viro media players ui</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-apps" role="tabpanel" aria-labelledby="list-apps-list">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_1.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Isometric perspective mock-up</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_2.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Time zone app ui</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-icons" role="tabpanel" aria-labelledby="list-icons-list">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="img m-auto">
+                                                    <img src="./img/work_1.png" class="card-img-top" alt="...">
+                                                </div>
+                                                <h3 class="card-title mt-3 text-uppercase">Isometric perspective mock-up</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="button mb-3 load-more">Load more projects</button>
+                        <div class="spinner-border d-none" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="m-auto h2">What people say about us</h2>
+                    </div>
+                    <div class="col-12">
+                        <p class="m-auto description">Our clients love us!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mt-3 mb-3">
+                        <div class="card m-auto">
+                            <div class="card-body">
+                                <div class="top d-md-flex align-items-center justify-content-center">
+                                    <div class="img mr-md-3"></div>
+                                    <h5 class="post textt-md-left ml-3 mb-3 m-sm-auto">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</h5>
+                                </div>
+                                <div class="bottom mt-sm-3">
+                                    <h3 class="username text-uppercase mb-0">Chanel Iman</h3>
+                                    <p class="work">CEO of Pinterest</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                        <div class="card m-auto">
+                            <div class="card-body">
+                                <div class="top d-md-flex align-items-center justify-content-center">
+                                    <div class="img mr-md-3"></div>
+                                    <h5 class="post text-md-left ml-3 mb-3 m-sm-auto">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</h5>
+                                </div>
+                                <div class="bottom mt-sm-3">
+                                    <h3 class="username text-uppercase mb-0">Adriana Lima</h3>
+                                    <p class="work">Founder of Instagram</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                        <div class="card m-auto">
+                            <div class="card-body">
+                                <div class="top d-md-flex align-items-center justify-content-center">
+                                    <div class="img mr-md-3"></div>
+                                    <h5 class="post text-md-left ml-3 mb-3 m-sm-auto">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</h5>
+                                </div>
+                                <div class="bottom mt-sm-3">
+                                    <h3 class="username text-uppercase mb-0">Anne Hathaway</h3>
+                                    <p class="work">Lead Designer at Behance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-3 mb-3">
+                        <div class="card m-auto">
+                            <div class="card-body">
+                                <div class="top d-md-flex align-items-center justify-content-center">
+                                    <div class="img mr-md-3"></div>
+                                    <h5 class="post text-md-left ml-3 mb-3 m-sm-auto">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</h5>
+                                </div>
+                                <div class="bottom mt-sm-3">
+                                    <h3 class="username text-uppercase mb-0">Emma Stone</h3>
+                                    <p class="work">Co-Founder of Shazam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="touch text-center" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="m-auto h2">Get in touch</h2>
+                    </div>
+                    <div class="col-12">
+                        <p class="m-auto description">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+                    </div>
+                </div>
+                <form class="m-auto needs-validation" novalidate>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="First name" required>
+                            <div class="invalid-feedback text-left">Please provide a first name.</div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Last name" required>
+                            <div class="invalid-feedback text-left">Please provide a last name.</div>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="message" class="form-control" rows="10" placeholder="Your message" required></textarea>
+                            <div class="invalid-feedback text-left">Please provide a message.</div>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <button class="button mb-3">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="d-flex align-items-center justify-content-center text-center">
+        <div class="contrainer">
+            <div class="row">
+                <div class="list-group flex-md-row flex-column">
+                    <a href="#" class="list-group-item active">Facebook</a>
+                    <a href="#" class="list-group-item">Twitter</a>
+                    <a href="#" class="list-group-item">Google+</a>
+                    <a href="#" class="list-group-item">LinkedIn</a>
+                    <a href="#" class="list-group-item">Behance</a>
+                    <a href="#" class="list-group-item">Dribbble</a>
+                    <a href="#" class="list-group-item">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
